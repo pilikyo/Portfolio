@@ -1,0 +1,66 @@
+
+
+
+@keyframes faded {
+    0%
+    {
+       box-shadow: 0 5px 30px rgba(9, 225, 232, 0.878);
+    }
+    50%{
+        box-shadow: 0 5px 30px rgba(7, 244, 34, 0.878);
+    }
+    100%{
+        box-shadow: 0 5px 30px rgba(213, 213, 11, 0.878);
+    }
+}
+@keyframes img {
+    0%
+    {
+       box-shadow: 0 5px 30px rgba(9, 225, 232, 0.878);
+    }
+    50%{
+        box-shadow: 0 1px 40px rgba(9, 225, 232, 0.878);
+    }
+    100%{
+        box-shadow: 0 10px 40px rgba(9, 225, 232, 0.878);
+    }
+}
+
+.other{
+    animation: img 5s ease-in-out infinite;
+}
+.skill{
+    animation: img 5s ease-in-out infinite;
+}
+.card-1
+{
+    box-shadow: 0 4px 20px rgba(231, 213, 10, 0.878);
+    animation: img 5s ease-in-out infinite;
+}
+.card-2
+{
+    box-shadow: 0 4px 20px rgba(231, 213, 10, 0.878);
+    animation: img 5s ease-in-out infinite;
+}
+.navbar-nav .nav-link:hover {
+    color: orange !important; 
+}
+
+.navbar-nav .nav-link.active {
+    color:orange !important;
+}
+
+ .typewriter-container {
+            font-size: 2rem;
+            display: inline-block;
+            border-right: 3px solid white;
+            padding-right: 5px;
+            animation: blink 0.7s infinite;
+        }
+
+        @keyframes blink {
+            50% { border-color: transparent; }
+        }
+
+
+
